@@ -1,0 +1,31 @@
+<h1>
+	Should I Play?
+</h1>
+
+<h2>
+	<%= leituras[0].titulo %>
+</h2>
+
+<div class="container-fluid mb-5">
+	<div class="row">
+
+		<div class="col-md-8">
+			Gráfico
+		</div>
+
+		<div class="col-md-4">
+			<div>
+				<img src="/public/img/<%= leituras[0].id_jogo %>.jpg" />
+			</div>
+
+			<p>
+				Preço: <%= leituras[0].preco %>
+			</p>
+
+			<p>
+				Review: <%= leituras[0].review %>
+			</p>
+		</div>
+
+	</div>
+</div>
